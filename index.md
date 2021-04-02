@@ -9,7 +9,7 @@ permalink: /
 # Skiylia
 
 <div style="display:flex;">
-  <img src="Skiylia_Logo.svg" alt="Skiylia icon" style="width: 25%; height: 25%; padding-right: 5%"/>
+  <img src="Skiylia_Logo.svg" alt="Skiylia icon" style="width: 20%; padding-right: 5%"/>
   <div style="vertical-align: middle;">
     <p>Dynamically typed.</p>
     <p>Interpreted.</p>
