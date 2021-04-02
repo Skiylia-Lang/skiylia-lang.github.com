@@ -17,6 +17,4 @@ permalink: /
   </div>
 </div>
 
-{: .fs-9 }
-
 [View on GitHub](https://github.com/Skiylia-Lang/){: .btn .fs-5 .mb-4 .mb-md-0 }
