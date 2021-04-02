@@ -8,13 +8,13 @@ permalink: /
 
 # Skiylia
 
-<img src="favicon.svg" alt="Skiylia icon" width="25%" style="float: left;"/>
+<div style="display: flex">
+  <img src="favicon.svg" alt="Skiylia icon" width="150"/>
+  Dynamically Typed.<br/><br/>
+  Interpreted.<br/><br/>
+  Object oriented.
+</div>
 
-Dynamically typed.
-
-Interpreted.
-
-Object oriented.
 
 {: .fs-9 }
 
