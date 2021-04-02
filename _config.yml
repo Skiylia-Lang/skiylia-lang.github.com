@@ -1,5 +1,7 @@
 title: "Skiylia"
 remote_theme: pmarsceill/just-the-docs
+logo: "favicon.svg"
+color_scheme: Skiylia_colour
 
 search:
   # Split pages into sections that can be searched individually
@@ -24,3 +26,8 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: true
+
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/Skiylia-Lang/skiylia-lang.github.com" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from

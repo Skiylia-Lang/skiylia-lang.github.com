@@ -6,5 +6,13 @@ description: "Skiylia is a Dynamically typed, Object Oriented, Interpreted Progr
 permalink: /
 ---
 
-# This is a test, by the way
+# Skiylia
 {: .fs-9 }
+
+<img src="favicon.svg" alt="Skiylia icon" width="25%" style="float: left;"/>
+
+Dynamically typed.
+
+Interpreted.
+
+Object oriented.
