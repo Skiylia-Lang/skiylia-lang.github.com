@@ -183,21 +183,29 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <path
+       inkscape:export-ydpi="96.012863"
+       inkscape:export-xdpi="96.012863"
        sodipodi:nodetypes="ccccccccsccc"
        id="path1564"
        d="M 152.32915,58.415038 111.99161,98.74901 H 61.780208 v 1.120862 H 110.86972 L 67.385681,143.35391 23.671552,99.639783 l 0.0021,-33.149786 c 0,-5.393499 4.318204,-10.899785 11.185041,-10.899785 h 1.587694 108.262893 c 0.63952,0 4.2915,-0.13611 7.6199,2.824826 z"
        style="fill:#a2deef;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1121)" />
     <path
+       inkscape:export-ydpi="96.012863"
+       inkscape:export-xdpi="96.012863"
        style="fill:#cfd3d7;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 27.288605,185.0369 40.337553,-40.3342 h 50.210112 v -1.12087 H 68.748048 l 43.482722,-43.48427 43.71421,43.71436 -0.002,33.14998 c 0,5.39353 -4.31821,10.89984 -11.18504,10.89984 h -1.5878 -108.261655 c -0.63952,0 -4.29151,0.13611 -7.61991,-2.82484 z"
        id="path1564-0"
        sodipodi:nodetypes="ccccccccsccc" />
     <path
+       inkscape:export-ydpi="96.012863"
+       inkscape:export-xdpi="96.012863"
        sodipodi:nodetypes="cccccc"
        id="path1598"
        d="m 26.497608,184.24405 c 0,0 -2.825373,-2.82742 -2.825668,-7.34736 v -0.54673 -75.12307 l 42.920893,42.9209 z"
        style="fill:#a2ceef;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
+       inkscape:export-ydpi="96.012863"
+       inkscape:export-xdpi="96.012863"
        style="fill:#a2ceef;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 153.11156,59.213905 c 0,0 2.82537,2.82742 2.82567,7.34736 v 0.54673 75.123145 l -42.9209,-42.920973 z"
        id="path1598-0"

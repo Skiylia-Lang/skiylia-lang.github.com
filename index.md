@@ -9,8 +9,8 @@ permalink: /
 # Skiylia
 
 <div style="display:flex;">
-  <img style="flex=1; vertical-align: middle; padding-right:0px;" src="Skiylia_Logo.svg" alt="Skiylia icon" width="30%"/>
-  <div>
+  <img src="Skiylia_Logo.svg" alt="Skiylia icon" style="width: 25%; height: 25%; padding-right: 5%"/>
+  <div style="vertical-align: middle;">
     <p>Dynamically typed.</p>
     <p>Interpreted.</p>
     <p>Object Oriented.</p>
@@ -21,7 +21,7 @@ permalink: /
 
 ## Example code
 
-```skiylia
+```
 /// This contains a snippet of Skiylia-code that
     computes the factorial of a number. ///
 
