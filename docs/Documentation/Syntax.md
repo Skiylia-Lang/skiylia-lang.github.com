@@ -8,6 +8,8 @@ parent: Documentation
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Documentation.html">← Documentation</a>
 <a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">Data Types →</a>
 <div style="float:clear"></div>
+<br>
+<br>
 
 <details open markdown="block">
   <summary>

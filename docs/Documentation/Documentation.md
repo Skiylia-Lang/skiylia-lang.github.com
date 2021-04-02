@@ -7,6 +7,8 @@ has_children: true
 
 <a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Syntax.html">Syntax →</a>
 <div style="float:clear"></div>
+<br>
+<br>
 
 # Documentation
 

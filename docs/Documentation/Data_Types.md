@@ -6,7 +6,11 @@ parent: Documentation
 ---
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Syntax.html">← Syntax</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Arrays.html">Arrays →</a>
 <div style="float:clear"></div>
+<div style="float:clear"></div>
+<br>
+<br>
 
 <details open markdown="block">
   <summary>
@@ -55,4 +59,6 @@ When calling comparisons, the Skiylia interpreter automatically converts any str
 Skiylia has a single none-type, `null`. This is automatically returned where a method does not return anything, and will always equate to false in a boolean operation, unless directly compared with another `null`.
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Syntax.html">← Syntax</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Arrays.html">Arrays →</a>
+<div style="float:clear"></div>
 <div style="float:clear"></div>
