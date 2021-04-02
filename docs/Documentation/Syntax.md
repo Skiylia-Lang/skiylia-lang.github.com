@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Syntax
-nav_order: 1
+nav_order: 2
+parent: Documentation
 ---
+
+<a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Documentation.html">← Documentation</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">Data Types →</a>
+<div style="float:clear"></div>
 
 <details open markdown="block">
   <summary>
@@ -14,10 +19,6 @@ nav_order: 1
 </details>
 
 # Syntax
-
-Skiylia's syntax is inspired by that of Python, with significant indentation and a strong focus on code readability.
-
-Skiylia scripts are stored in files with the `.skiy` extension, though this may be subject to change as the language develops. Due to it's interpreted nature, all programs are executed directly from source, with no prior compilation.
 
 # Comments
 
@@ -229,3 +230,7 @@ The following table describes the precedence structure of Skiylia, which is simi
 | 9 | `xor` `^` | Logical xor |
 | 10 | `? :` `?:` `??` | Conditionals |
 | 11 | `=` | Assignment |
+
+<a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Documentation.html">← Documentation</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">Data Types →</a>
+<div style="float:clear"></div>
