@@ -7,7 +7,6 @@ permalink: /
 ---
 
 # Skiylia
-{: .fs-9 }
 
 <img src="favicon.svg" alt="Skiylia icon" width="25%" style="float: left;"/>
 
@@ -16,3 +15,7 @@ Dynamically typed.
 Interpreted.
 
 Object oriented.
+
+{: .fs-9 }
+
+[View on GitHub](https://github.com/Skiylia-Lang/){: .btn .fs-5 .mb-4 .mb-md-0 }
