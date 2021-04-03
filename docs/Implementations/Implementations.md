@@ -8,7 +8,6 @@ has_children: false
 <style>
   .zoom {
     transition: transform .2s;
-    margin: auto;
   }
   .zoom:hover {
     transform: scale(1.2);
@@ -52,9 +51,9 @@ Skiylia Implementations are listed below, grouped into language categories.
 
 ### Python
 
-<div style="display:flex; overflow: initial;">
-  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%;" class="zoom slide-in">
-    <img src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c"/>
+<div style="display:flex; overflow: initial; margin: auto;">
+  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%; margin: auto;" class="slide-in">
+    <img class="zoom" src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c"/>
   </a>
   <div style="width: 40%">
     <p class="slide-in" style="animation-delay: .25s;">
