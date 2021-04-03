@@ -120,8 +120,13 @@ assignment          > ( call "." )? Identifier "=" assignment
 
 conditional         > logicalor ( ( ( "?" expression ":" )
                                     | "?:" | "??" ) conditional )?
+```
 
-logicalor           > logicalxor ( ( "|" | "or" ) logicalxor )*
+### Binary operations
+
+Binary operations are those that take two values. (not neccesarily those that require binary numbers, like `0b101`)
+
+```logicalor           > logicalxor ( ( "|" | "or" ) logicalxor )*
 
 logicalxor          > logicaland ( ( "^" | "xor" ) logicaland )*
 
@@ -135,13 +140,25 @@ comparison          > term ( ( ">" | ">=" | "<" | "<=" ) term )*
 term                > factor ( ( "-" | "+" ) factor )*
 
 factor              > unary ( ( "*" | "/" | "**" ) unary )*
+```
 
+### Unary operations
+
+Operations that require only a single operand
+
+```
 unary               > ( "!" | "-" )* unary
                     | ( "++" | "--" )? call
                     | postfix
 
 postfix             > call ( "--" | "++" )?
+```
 
+### Literals
+
+These are the final parts of the script that actually encode values like `6` or `Hello World!`
+
+```
 call                > literal ( "(" arguments ")" )*
                     | literal ( "." Identifier )*
 
@@ -158,7 +175,7 @@ literal             > Number
                     | Identifier
 ```
 
-### Lexical Grammar
+# Lexical Grammar
 
 Lexical grammar describes how characters are parsed into tokens such that the syntax grammar can be used.
 
