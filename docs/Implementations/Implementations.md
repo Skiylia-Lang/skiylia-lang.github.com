@@ -8,6 +8,7 @@ has_children: false
 <style>
   .zoom {
     transition: transform .2s;
+    margin: auto;
   }
   .zoom:hover {
     transform: scale(1.2);
@@ -51,11 +52,11 @@ Skiylia Implementations are listed below, grouped into language categories.
 
 ### Python
 
-<div style="display:flex; overflow: initial; margin: auto;">
-  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%; margin: auto;" class="slide-in">
-    <img class="zoom" src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c"/>
+<div class="slide-in" style="display:flex; overflow:initial;">
+  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%; margin:auto;" class="zoom">
+    <img src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c"/>
   </a>
-  <div style="width: 40%">
+  <div style="width: 40%; padding:1%">
     <p class="slide-in" style="animation-delay: .25s;">
       <a href="https://github.com/SK1Y101">
         <img src="https://img.shields.io/badge/Author-SK1Y101-lightgrey?style=for-the-badge"/>
@@ -65,7 +66,9 @@ Skiylia Implementations are listed below, grouped into language categories.
       <img src="https://badges.pufler.dev/updated/Skiylia-Lang/PySkiylia?style=for-the-badge"/>
     </p>
     <p class="slide-in" style="animation-delay: .15s;">
-      <img src="https://img.shields.io/github/v/release/Skiylia-Lang/PySkiylia?include_prereleases&style=for-the-badge"/>
+      <a href="https://github.com/Skiylia-Lang/PySkiylia/releases">
+        <img src="https://img.shields.io/github/v/release/Skiylia-Lang/PySkiylia?include_prereleases&style=for-the-badge"/>
+        </a>
     </p>
     <p class="slide-in" style="animation-delay: .1s;">
       <img src="https://img.shields.io/github/license/Skiylia-Lang/PySkiylia?style=for-the-badge"/>
