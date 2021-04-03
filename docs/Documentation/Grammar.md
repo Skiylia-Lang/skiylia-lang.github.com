@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Arrays
+title: Grammar
 nav_order: 40
 parent: Documentation
 ---
