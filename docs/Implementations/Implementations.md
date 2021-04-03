@@ -11,4 +11,5 @@ Skiylia currently only has one implementation.
 
 ### Python
 
-[PySkiylia](https://github.com/Skiylia-Lang/PySkiylia) - [Jack Lloyd-Walters](https://github.com/SK1Y101)
+{% preview https://github.com/Skiylia-Lang/PySkiylia %}
+>[PySkiylia](https://github.com/Skiylia-Lang/PySkiylia) - [Jack Lloyd-Walters](https://github.com/SK1Y101)
