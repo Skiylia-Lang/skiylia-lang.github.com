@@ -55,7 +55,8 @@ Skiylia Implementations are listed below, grouped into language categories. As o
 <div style="display:flex; overflow: initial;">
   <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%;" class="zoom slide-in">
     <img src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c"/>
-  <div>
+  </a>
+  <div style="width: 40%">
     <p class="slide-in" style="animation-delay: .25s;">
       <a href="https://github.com/SK1Y101">
         <img src="https://img.shields.io/badge/Author-SK1Y101-lightgrey?style=for-the-badge"/>
