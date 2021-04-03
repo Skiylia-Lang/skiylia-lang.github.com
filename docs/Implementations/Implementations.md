@@ -12,6 +12,7 @@ has_children: false
   }
   .zoom:hover {
     transform: scale(1.2);
+    background-color: #a2ceef08
   }
   .slide-in {
     opacity: 0;
@@ -50,7 +51,7 @@ Skiylia Implementations are listed below, grouped into language categories.
 
 (Click on the images to visit that github repo)
 
-### Python
+# Python
 
 <div class="slide-in" style="display:flex; overflow:initial;">
   <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%; margin:auto;" class="zoom">
