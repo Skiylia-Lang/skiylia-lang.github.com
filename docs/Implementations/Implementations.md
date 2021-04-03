@@ -46,7 +46,7 @@ has_children: false
 {:toc}
 </details>
 
-Skiylia Implementations are listed below, grouped into language categories. As of current, Skiylia currently only has one implementation.
+Skiylia Implementations are listed below, grouped into language categories.
 
 (Click on the images to visit that github repo)
 
