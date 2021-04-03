@@ -7,7 +7,7 @@ has_children: false
 
 <style>
 .zoom {
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
   margin: 0 auto;
 }
 
@@ -33,11 +33,11 @@ Skiylia Implementations are listed below, grouped into language categories. As o
 
 ### Python
 
-<div style="display:flex; margin:5%">
-  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%; float:left;">
-    <img src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c" class="zoom">
+<div style="display:flex;">
+  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%; margin: auto">
+    <img src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c" class="zoom"/>
   </a>
-  <div style="vertical-align: middle; margin-left:6%;">
+  <div style="margin: auto;">
     <p>
       <img alt="Updated" src="https://badges.pufler.dev/updated/Skiylia-Lang/PySkiylia?style=for-the-badge"/>
     </p>
