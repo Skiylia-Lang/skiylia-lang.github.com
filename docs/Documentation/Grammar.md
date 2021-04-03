@@ -126,7 +126,8 @@ conditional         > logicalor ( ( ( "?" expression ":" )
 
 Binary operations are those that take two values. (not neccesarily those that require binary numbers, like `0b101`)
 
-```logicalor           > logicalxor ( ( "|" | "or" ) logicalxor )*
+```
+logicalor           > logicalxor ( ( "|" | "or" ) logicalxor )*
 
 logicalxor          > logicaland ( ( "^" | "xor" ) logicaland )*
 
