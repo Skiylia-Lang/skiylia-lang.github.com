@@ -10,6 +10,15 @@ parent: Documentation
 <br>
 <br>
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 # Arrays
 
 An array in Skiylia is a compound data type that contains a collection of any other data type. Arrays are created by calling the `array` function.
@@ -112,7 +121,7 @@ print(a)
     Array(1, 1, 3, 5). ///
 ```
 
-`pop()` will remove the last value from an array, while `remove` will remove the value at the specified index.
+`pop()` will remove the last value from an array, while `remove()` will remove the value at the specified index.
 
 Additionally, the `pop()` and `remove()` functions return the values that were removed:
 
