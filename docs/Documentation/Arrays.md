@@ -149,3 +149,5 @@ print(a.len())
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">← Data Types</a>
 <div style="float:clear"></div>
+<br>
+<br>

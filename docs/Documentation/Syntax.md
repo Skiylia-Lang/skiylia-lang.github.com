@@ -236,3 +236,5 @@ The following table describes the precedence structure of Skiylia, which is simi
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Documentation.html">← Documentation</a>
 <a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">Data Types →</a>
 <div style="float:clear"></div>
+<br>
+<br>

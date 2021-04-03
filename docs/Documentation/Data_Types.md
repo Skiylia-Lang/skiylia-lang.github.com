@@ -8,7 +8,6 @@ parent: Documentation
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Syntax.html">← Syntax</a>
 <a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Arrays.html">Arrays →</a>
 <div style="float:clear"></div>
-<div style="float:clear"></div>
 <br>
 <br>
 
@@ -61,4 +60,5 @@ Skiylia has a single none-type, `null`. This is automatically returned where a m
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Syntax.html">← Syntax</a>
 <a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Arrays.html">Arrays →</a>
 <div style="float:clear"></div>
-<div style="float:clear"></div>
+<br/>
+<br/>
