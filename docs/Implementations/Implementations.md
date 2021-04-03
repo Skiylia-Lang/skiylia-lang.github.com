@@ -33,8 +33,8 @@ Skiylia Implementations are listed below, grouped into language categories. As o
 
 ### Python
 
-<div style="display:flex; overflow : initial;">
-  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%;"class="zoom">
+<div style="display:flex; overflow: initial;">
+  <a href="https://github.com/Skiylia-Lang/PySkiylia" style="width: 50%;" class="zoom">
     <img src="https://repository-images.githubusercontent.com/349156513/8620e100-9423-11eb-830a-858a39150e2c"/>
   </a>
   <div>
