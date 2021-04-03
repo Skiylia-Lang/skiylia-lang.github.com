@@ -39,7 +39,7 @@ Skiylia Implementations are listed below, grouped into language categories. As o
   </a>
   <div style="vertical-align: middle; margin-left:6%;">
     <p>
-      <img alt="Updated" src="https://badges.pufler.dev/updated/Skiylia-Lang/PySkiylia?style=for-the-badge"
+      <img alt="Updated" src="https://badges.pufler.dev/updated/Skiylia-Lang/PySkiylia?style=for-the-badge"/>
     </p>
     <p>
       <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Skiylia-Lang/PySkiylia?include_prereleases&style=for-the-badge"/>
