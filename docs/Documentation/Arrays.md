@@ -6,6 +6,7 @@ parent: Documentation
 ---
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">← Data Types</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Methods.html">Methods →</a>
 <div style="float:clear"></div>
 <br>
 <br>
@@ -81,7 +82,7 @@ print(a)
 
 # Adding elements
 
-It is possible to grow arrays after they have already been created, by calling either the `add()` or `insert()` functions.
+It is possible to grow arrays after they have already been created, by calling either the `add()`, `join`, or `insert()` functions.
 
 ```
 var a = array(1, 1, 2, 3, 5, 8)
@@ -97,9 +98,29 @@ a.insert(3, 13)
 print(a)
 /// Expected output:
     Array(1, 1, 2, 13, 3, 5, 8, 13). ///
+
+a.join(array(1, 2, 3))
+print(a)
+/// Expected output:
+    Array(1, 1, 2, 13, 3, 5, 8, 13, 1, 2, 3). ///
 ```
 
 `add()` will append the value to the end of the array, while `insert` will insert the value into the array at the specified index.
+
+`join()` is a generalised form of `add()`, allowing both array concatenation, and value appending. `join()` takes any number of inputs, while `add()` take only one.
+```
+var a = array(1, 2, 3)
+
+a.join(array(1, 2), array(2, 4))
+print(a)
+/// Expected output:
+    Array(1, 2, 3, 1, 2, 2, 4). ///
+
+a.join(1, 4)
+print(a)
+/// Expected output:
+    Array(1, 2, 3, 1, 2, 2, 4, 1, 4). ///
+```
 
 # Removing elements
 
@@ -148,6 +169,7 @@ print(a.len())
 `len()` is equivalent to the final index of an array, plus one.
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">← Data Types</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Methods.html">Methods →</a>
 <div style="float:clear"></div>
 <br>
 <br>
