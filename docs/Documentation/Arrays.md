@@ -82,7 +82,7 @@ print(a)
 
 # Adding elements
 
-It is possible to grow arrays after they have already been created, by calling either the `add()`, `join`, or `insert()` functions.
+It is possible to grow arrays after they have already been created, by calling either the `add()`, `join()`, or `insert()` functions.
 
 ```
 var a = array(1, 1, 2, 3, 5, 8)
@@ -105,7 +105,7 @@ print(a)
     Array(1, 1, 2, 13, 3, 5, 8, 13, 1, 2, 3). ///
 ```
 
-`add()` will append the value to the end of the array, while `insert` will insert the value into the array at the specified index.
+`add()` will append the value to the end of the array, while `insert()` will insert the value into the array at the specified index.
 
 `join()` is a generalised form of `add()`, allowing both array concatenation, and value appending. `join()` takes any number of inputs, while `add()` take only one.
 ```

@@ -67,7 +67,7 @@ Skiylia style strongly discourages mixing inline and block conditionals, as it d
 
 ## Elif
 
-If more than one condition is to be tested, then an `elif` statement can be used as part of the control flow. Stacking multiple of these can build up structures similar to (but not equivalent) to the switch/case found in many C derivatives.
+If more than one condition is to be tested, then an `elif` statement can be used as part of the control flow. Stacking multiple of these can build up structures similar (but not equivalent) to the switch/case found in many C derivatives.
 
 ```
 if jump == "success":
@@ -90,10 +90,10 @@ The only Unary Logical operator in Skiylia is the `not` operator, which uses bot
 
 ```
 print( not true )
-print( ! true )
+print( !true )
 ```
 
-The truth table for `! A`:
+The truth table for `!A`:
 
 |  A  | Output |
 |:---:|:------:|
@@ -109,7 +109,7 @@ print( true and false )
 print( true & false )
 ```
 
-The logical And will evaluate the expression, if the left side is false, this returns false, else the right hand side is evaluated and returned. This behaviour is easy to understand when showing the truth table for `A & B`:
+The logical and will evaluate the expression, if the left side is false, this returns false, else the right hand side is evaluated and returned. This behaviour is easy to understand when showing the truth table for `A & B`:
 
 
 |  A  |  B  | Output |
@@ -215,7 +215,7 @@ This is roughly equivalent to the ternary ooperation `A == null ? B : A`. As nul
 
 # Looping statements
 
-A useful programming language without the ability to repeat execution of certain code chunks would be relatively useless, and Skiylia is not one of those languages. The individual statements below should be fairly familiar to anyone who has experience in other languages.
+A programming language without the ability to repeat execution of certain code chunks would be relatively useless, and Skiylia is not one of those languages. The individual statements below should be fairly familiar to anyone who has experience programming.
 
 ## While statement
 

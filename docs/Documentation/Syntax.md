@@ -179,7 +179,7 @@ The `print` statement is not a colon-terminated statement, and thus cannot prece
 ```
 def testFunction(a):
   if a == "test":
-    print("'a' was equal to 'test'"):
+    print("'a' was equal to 'test'")
     return true
   print("'a' was not equal to 'test'")
 ```
@@ -197,7 +197,7 @@ if a == true: print("'a' was true!")
 else: print("'a' was false!")
 ```
 
-Due to the colon acting as an implicit indentation marker, it is feasible for the user to mix implicit and explicit indentation without the interpreter throwing an err0r.
+Due to the colon acting as an implicit indentation marker, it is feasible for the user to mix implicit and explicit indentation without the interpreter throwing an error.
 
 ```
 if a == true: print("'a' was true!")
