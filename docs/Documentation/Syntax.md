@@ -73,12 +73,12 @@ false for if import in not null or return self
 super true until var when where while xor
 ```
 
-Additionally, Skiylia reserves 23 keywords as the names of primitive functions.
+Additionally, Skiylia reserves 22 keywords as the names of primitive functions.
 
 ```
-abs array arr bool ceil clock elapsed float
-floor input int integer mod pow print readfile
-round sum sqrt str string wait writefile
+abs array bool ceil clock elapsed float floor
+input int integer mod pow print readfile round
+sum sqrt str string wait writefile
 ```
 
 All keywords are case sensitive, so while it is discouraged, a user could feasibly have a variable named `False` without conflicting with the `false` keyword.

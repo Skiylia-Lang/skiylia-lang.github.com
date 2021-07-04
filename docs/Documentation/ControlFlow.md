@@ -211,7 +211,185 @@ The truth table for `A ?? B`:
 |False| A  |
 |Null | B  |
 
-This is roughly equivalent to the ternary ooperation `A == null ? B : A`.
+This is roughly equivalent to the ternary ooperation `A == null ? B : A`. As null evaluates as false in Skiylia, the `A ?: B` and `A ?? B` operations function identically in all cases except where `A` is `false`, `0`, or `""`.
+
+# Looping statements
+
+A useful programming language without the ability to repeat execution of certain code chunks would be relatively useless, and Skiylia is not one of those languages. The individual statements below should be fairly familiar to anyone who has experience in other languages.
+
+## While statement
+
+The simplest looping statement is the `while` loop, which will execute a chunk of code so long as it's condition evaluates as `true`:
+
+```
+var n = 0
+while n < 10:
+  print(n)
+  n++
+
+/// This will output:
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ///
+```
+
+The loop works by evaluating the condition `n < 10`, then executes the loop body if this is true. Following that, it will then re-evaluate the condition, and continue looping until it is `false`.
+
+An infinite loop can be created with `while true:`, as this will always evaluate as true.
+
+Additionally, the `do` modifier can be added to the loop, which executes the body before evaluating the condition. Thus, the loop will always execute at least once:
+
+```
+var n = 10:
+do while n < 10:
+  print(n)
+  n++
+
+/// This will output:
+    10
+    (10 < 10 is false, but do forces the body to execute anyway)///
+```
+
+## Until statement
+
+The `until` statement is equivalent to `while`, though continues to execute code while the condition evaluates to `false` instead of `true`.
+
+```
+var n = 0
+until n == 10:
+  print(n)
+  n++
+
+/// This will output:
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ///
+```
+
+An `until x:` loop is thus equivalent to `while not x:`, and is included to increase readability for more complex while statements. Additionally, the `do` keyword can be prefixed to an `until` loop, as with the `while` loop:
+
+```
+var n = 10:
+do until n > 0:
+  print(n)
+  n++
+
+/// This will output:
+    10
+    (10 > 0 is true, but do forces the body to execute anyway)///
+```
+
+## For statement
+
+#### Iterable objects
+
+The `while` and `until` statements are useful for indefinite looping, or those with defined conditionals that need to be evaluated after a loop, but in some cases it is more desirable to iterate other a defined collection.
+
+```
+var a = array(1, 2, 3, 4, 5, 6, 7, 8)
+
+for x in a:
+  print(x)
+
+/// This will output:
+    1, 2, 3, 4, 5, 6, 7, 8 ///
+```
+
+The increment variable can be defined elsewhere in the scope and used here, or can be defined implictly at the start of a for loop with no issue. In the example above, `x` does not require explicit declaration with the `var` keyword as other variables do, although using one will not throw an error, as shown:
+
+```
+var a = array(1, 2, 3, 4, 5, 6, 7, 8)
+
+for var x in a:
+  print(x)
+
+/// This will output:
+    1, 2, 3, 4, 5, 6, 7, 8 ///
+```
+
+As the `for` loop is utilised for implicit iteration, it is often preferred to `while` or `until` in cases where a loop needs to run for a given number of times. There are four distinct allowed Skiylia grammars to aid this:
+
+#### Infinite loops
+
+Only defining the increment variable will create an infinite loop, almost identical to a `while true:` with the added bonus of a counter (in the form of the increment variable of course):
+
+```
+for x:
+  print(x)
+
+/// This will output:
+    0, 1, 2, 3, 4, 5, 6, 7, 8, Ad infinitum ///
+```
+
+#### Infinite loops with defined increments
+
+The `do` statement is utilised in for loops, but modifies how the increment variable changes for each loop, rather than forcing the initial execution
+
+```
+for x do x+=2:
+  print(x)
+
+/// This will output:
+    0, 2, 4, 6, 8, 10, 12, 14, 16, Ad infinitum ///
+```
+
+#### Defined loop break
+
+In this case, the for statement is again used to create a `while`-like loop with a defined incremental counter. The for loop will continue executing until the statement evaluates to false, which is useful to count up to a certain range.
+
+```
+for x when x<=10:
+
+/// This will output:
+  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ///
+```
+
+Additionally, the keyword `when` can be substituted for `where` with no issue
+
+#### Defined loop break with defined increments
+
+by using both the loop break and incremental modification, the for loop can count up (or down!) to any value, at any rate:
+
+```
+for x when x<10 do x=x+2:
+
+/// This will output:
+  0, 2, 4, 6, 8 ///
+```
+
+Or perhaps a more complicated set of definitions:
+
+```
+for x when x<100 do x*=(x+1):
+
+/// This will output:
+  0, 1, 2, 6, 42 ///
+```
+
+## Break statement
+
+At times, a programmer can desire a loop to exit prematurely, and in Skiylia this is facilitated with the `break` keyword. It's inclusion causes the immediately enclosed loop to stop.
+
+```
+while true:
+  var a = input("Do you like Skiylia?\n> ")
+  if a == "yes":
+    break
+
+/// This will keep asking for an output
+    until a user inputs "yes", in which
+    case the loop will be stopped ///
+```
+
+## Continue statement
+
+Conversely, a programmer may wish to skip part of the iteration, and continue onto the next, without dealing with the remainder of the loop body. This, conveniently, is accessed with the `continue` keyword:
+
+```
+for x where x <= 10:
+  if x == 5:
+    continue
+  print(x)
+
+/// This will output:
+  0, 1, 2, 3, 4, 6, 7, 8, 9, 10 ///
+```
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Methods.html">← Methods</a>
 <div style="float:clear"></div>
