@@ -65,12 +65,12 @@ The former is a perfectly valid Skiylia script, but is discouraged  due to reada
 
 # Keywords
 
-Skiylia has a total of 25 reserved keywords that cannot be used for variable, function, or class names.
+Skiylia has a total of 27 reserved keywords that cannot be used for variable, function, or class names.
 
 ```
-and break continue class def do elif else
-false for if import in not null or return
-self super true var when where while xor
+and break check continue class def do elif else
+false for if import in not null or return self
+super true until var when where while xor
 ```
 
 Additionally, Skiylia reserves 23 keywords as the names of primitive functions.

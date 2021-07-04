@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Functions
+title: Methods
 nav_order: 5
 parent: Documentation
 ---
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Arrays.html">← Arrays</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/ControlFlow.html">Control Flow →</a>
 <div style="float:clear"></div>
 <br>
 <br>
@@ -55,6 +56,7 @@ class.name = "Testing"
 ```
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Arrays.html">← Arrays</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/ControlFlow.html">Control Flow →</a>
 <div style="float:clear"></div>
 <br>
 <br>
