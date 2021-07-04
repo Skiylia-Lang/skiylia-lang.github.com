@@ -79,14 +79,21 @@ paramters           > Identifier ( "," Identifier )*
 Statements do not introduce bindings (objects that the interpreter needs to track).
 
 ```
-statement           > exprStatement
+statement           > checkStatement
+                    | doStatement
+                    | exprStatement
                     | forStatement
                     | ifStatement
                     | interuptStatement
+                    | untilStatement
                     | whileStatement
                     | block
 
-expr                > expression "\n"
+checkStatement      > "check" expression ("," expression)?
+
+doStatement         > "do" (whileStatement | untilStatement)
+
+exprStatement       > expression "\n"
 
 forStatement        > "for" ( variableDeclaration | exprStatement )
                              forcondition? ":" "\n" statement
@@ -102,9 +109,11 @@ interuptStatement   > "break"
                       | "continue"
                       | "return" expression?
 
-whileStatement        > "while" expression ":" "\n" statement
+untilStatement      > "until" expression ":" "\n" statement
 
-block                 > ( declaration "\n" )+
+whileStatement      > "while" expression ":" "\n" statement
+
+block               > ( declaration "\n" )+
 
 ```
 
@@ -136,7 +145,7 @@ logicaland          > equality ( ( "&" | "and" ) equality )*
 equality            > comparison ( ( "==" | "!=" | "===" | "!=="
                                     | "~~~" | "!~~" ) comparison )*
 
-comparison          > term ( ( ">" | ">=" | "<" | "<=" ) term )*
+comparison          > term ( ( ">" | ">=" | "<" | "<=" | "<=>" ) term )*
 
 term                > factor ( ( "-" | "+" ) factor )*
 
