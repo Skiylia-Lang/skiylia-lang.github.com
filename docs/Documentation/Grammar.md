@@ -63,7 +63,7 @@ classDeclaration    > "class" Identifier ( "(" Identifier ")" )?
 
 functionDeclaration > "def" function
 
-variableDeclaration > "var" Identifier ( "=" expression )?
+variableDeclaration > "var"? Identifier ( "=" expression )?
 ```
 
 To keep the syntax cleaner, the function grammar has been pulled out here.  

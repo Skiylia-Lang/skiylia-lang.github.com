@@ -221,17 +221,17 @@ The following table describes the precedence structure of Skiylia, which is simi
 
 | Prec. | Operator | Description |
 |:------|:---------|:------------|
-| 1 | `()` `.` | Grouping, Method call |
+| 1 | `()` `.` | Grouping, [Method call](https://skiylia-lang.github.io/docs/Documentation/ControlFlow.html#if-statements) |
 | 2 | `-` `!` `--` `++` | Negate, Not, Decrement, Increment |
 | 3 | `*` `/` `**` | Multiply, Divide, Exponentiate |
 | 4 | `+` `-` | Add, Subtract |
 | 5 | `>` `>=` `<` `<=` | Comparison |
 | 6 | `==` `===` `~~~` `!=` `!==` `!~~~` | Equality and Inequality |
-| 7 | `and` `&` | Logical and |
-| 8 | `or` `\|` | Logical or |
-| 9 | `xor` `^` | Logical xor |
-| 10 | `? :` `?:` `??` | Conditionals |
-| 11 | `=` | Assignment |
+| 7 | `and` `&` | [Logical and](https://skiylia-lang.github.io/docs/Documentation/ControlFlow.html#and) |
+| 8 | `or` `\|` | [Logical or](https://skiylia-lang.github.io/docs/Documentation/ControlFlow.html#or) |
+| 9 | `xor` `^` | [Logical xor](https://skiylia-lang.github.io/docs/Documentation/ControlFlow.html#xor) |
+| 10 | `? :` `?:` `??` | [Conditionals](https://skiylia-lang.github.io/docs/Documentation/ControlFlow.html#ternary) |
+| 11 | `=` | [Assignment](https://skiylia-lang.github.io/docs/Documentation/Variables.html#assignment) |
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Documentation.html">← Documentation</a>
 <a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Data_Types.html">Data Types →</a>

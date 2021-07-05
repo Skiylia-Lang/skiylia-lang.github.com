@@ -6,6 +6,7 @@ parent: Documentation
 ---
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Methods.html">← Methods</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Variables.html">Variables →</a>
 <div style="float:clear"></div>
 <br>
 <br>
@@ -392,6 +393,7 @@ for x where x <= 10:
 ```
 
 <a style="float: left;" href="https://skiylia-lang.github.io/docs/Documentation/Methods.html">← Methods</a>
+<a style="float: right;" href="https://skiylia-lang.github.io/docs/Documentation/Variables.html">Variables →</a>
 <div style="float:clear"></div>
 <br>
 <br>
